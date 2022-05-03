@@ -51,3 +51,7 @@ For this project, you need to create a <b>Dockerfile</b>, a Python dependencies 
    <br/>$ sudo chown -R $USER:$USER project manage.py db.sqlite3
 2. docker_django_CRUD_001.01
 3. docker_django_CRUD_001.02
+   <br/>Not working $ sudo docker-compose run web django-admin.py startapp employee
+   <br/>$ sudo docker-compose run web python manage.py startapp employee
+   <br/>$ sudo chown -R $USER:$USER employee
+4. 
