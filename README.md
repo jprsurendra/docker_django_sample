@@ -51,7 +51,15 @@ For this project, you need to create a <b>Dockerfile</b>, a Python dependencies 
    <br/>$ sudo chown -R $USER:$USER project manage.py db.sqlite3
 2. docker_django_CRUD_001.01
 3. docker_django_CRUD_001.02
+       <br/>links: https://mmorejon.io/en/blog/start-django-project-with-docker/
+   <br/>https://stackoverflow.com/questions/56146169/django-startapp-workflow-with-docker
    <br/>Not working $ sudo docker-compose run web django-admin.py startapp employee
    <br/>$ sudo docker-compose run web python manage.py startapp employee
    <br/>$ sudo chown -R $USER:$USER employee
-4. 
+4. https://developer.ibm.com/tutorials/docker-dev-db/
+5. https://runnable.com/docker/python/docker-compose-with-django-apps
+6. https://www.dabbleofdevops.com/blog/setup-a-mysql-python-docker-dev-stack
+7. https://blog.logrocket.com/dockerizing-django-app/
+8. https://www.freecodecamp.org/news/end-to-end-api-testing-with-docker/
+9. https://medium.com/@minghz42/docker-setup-for-django-on-mysql-1f063c9d16a0
+10. 
