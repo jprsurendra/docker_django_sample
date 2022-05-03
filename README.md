@@ -42,4 +42,11 @@ For this project, you need to create a <b>Dockerfile</b>, a Python dependencies 
 7. Run the docker-compose up command from the top level directory for your project.
 
      docker-compose up 
-8. 
+
+# Branch Info:
+1. docker_django_CRUD_001: 
+    <br/>To create application folder structure 
+   <br/>$ sudo docker-compose run web django-admin startproject project .<br/>
+   <br/>To reset permissions 
+   <br/>$ sudo chown -R $USER:$USER project manage.py db.sqlite3
+2. 
