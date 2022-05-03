@@ -49,4 +49,5 @@ For this project, you need to create a <b>Dockerfile</b>, a Python dependencies 
    <br/>$ sudo docker-compose run web django-admin startproject project .<br/>
    <br/>To reset permissions 
    <br/>$ sudo chown -R $USER:$USER project manage.py db.sqlite3
-2. 
+2. docker_django_CRUD_001.01
+3. 
